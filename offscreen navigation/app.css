@@ -30,3 +30,8 @@
                       rgb(160,216,239) 100%);
     background-size: 200%;
 }
+
+.nav-trigger {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
