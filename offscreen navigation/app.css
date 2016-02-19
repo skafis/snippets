@@ -54,3 +54,12 @@ label[for="nav-trigger"] {
     background-size: contain;
 }
 
+/*the css to make trigger work*/
+.nav-trigger:checked + label {
+    left: 215px;
+}
+
+.nav-trigger:checked ~ .site-wrap {
+    left: 200px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+}
