@@ -68,3 +68,9 @@ label[for="nav-trigger"] {
 .nav-trigger + label, .site-wrap {
     transition: left 0.2s;
 }
+
+/*hidding the overflow */
+
+body {
+    overflow-x: hidden;
+}
