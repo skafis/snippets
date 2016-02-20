@@ -4,3 +4,12 @@ html,
 body {
   height: 100%;
 }
+
+body {
+  background: radial-gradient(#222922, #000500);
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 400;
+  overflow: hidden;
+  padding: 30px 0 0 30px;
+  text-align: center;
+}
